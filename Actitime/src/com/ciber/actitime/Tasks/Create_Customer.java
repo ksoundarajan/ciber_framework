@@ -8,7 +8,7 @@ import com.ciber.actitime.testbase.Baseclass;
 public class Create_Customer extends Baseclass {
   @Test
   public void testCreate_customer() {
-	  //test comments for git
+	  //test comments for github
 	  driver.findElement(By.xpath("//div[@class='title ellipsis']")).click();
 	  driver.findElement(By.xpath("div[@class='item createNewCustomer']")).click();
 	  driver.findElement(By.xpath("(//input[@placeholder='Enter Customer Name'])[2]")).sendKeys("kalaivani");
